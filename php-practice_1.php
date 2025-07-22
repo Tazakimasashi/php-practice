@@ -23,8 +23,8 @@ $age = 18;
 $judgment = ($age < 18) ? '未成年です。' : '成人です。';
 echo $judgment;
 // Q6 配列
-$Kantoregion = ['東京都' , '埼玉県' , '千葉' , '栃木県' , '群馬県' , '神奈川県' , '茨城県'];
-echo $Kantoregion[3] . 'と' . $Kantoregion[4] . 'は関東地方の都道府県です。';
+$Kantoregion = ['東京都' , '埼玉県' , '栃木県' , '千葉県' , '群馬県' , '神奈川県' , '茨城県'];
+echo $Kantoregion[2] . 'と' . $Kantoregion[3] . 'は関東地方の都道府県です。';
 // Q7 連想配列-1
 $Kantoregion = ['東京都' => '新宿区' , '埼玉県' => 'さいたま市' , '千葉' => '千葉市' , '栃木県' => '宇都宮市' , '群馬県' => '前橋市' , '神奈川県' => '横浜市' , '茨城県' => '水戸市'];
 foreach ($Kantoregion as $key => $value) {

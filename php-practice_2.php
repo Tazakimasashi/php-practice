@@ -54,4 +54,5 @@ for ($i = 1; $i <= 100; $i++) {
   $pasttime = new DateTime('1992-04-25');
   $interval = $nawtime -> diff($pasttime);
   echo 'あの日から' . $interval -> format('%a') . '日経過しました。';
+>>>>>>> main
 ?>
